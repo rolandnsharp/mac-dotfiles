@@ -3,9 +3,11 @@
 
 
 " =============== Plugin Mangement ===============
+" Reload .vimrc and :PlugInstall to install plugins.
 
 call plug#begin('~/.vim/plugged')
 
 Plug 'scrooloose/nerdtree'
+Plug 'kien/ctrlp.vim'
 
 call plug#end()
